@@ -6,10 +6,18 @@ import Screen from "./Screen/Screen";
 
 
 class App extends React.Component{
+
+  state = {
+    currentValue: 0,
+    maxValue: 5,
+    initialVal: 0
+  };
+
+
   render = () => {
     return (
         <div className='App'>
-          <Screen/>
+          <Screen data={this.state}/>
           <Increment/>
           <Reset/>
 
