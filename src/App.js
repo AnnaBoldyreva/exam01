@@ -34,9 +34,13 @@ class App extends React.Component{
 
     return (
         <div className='App'>
+          <div className='wrapper'>
           <Screen data={this.state}/>
+            <div className='buttonWrapper'>
           <Increment increment={this.increment} data={this.state}/>
           <Reset reset={this.reset}/>
+            </div>
+          </div>
 
         </div>
     );

@@ -6,7 +6,7 @@ class Screen extends React.Component{
   render = () => {
     return (
         <div className={styles.screen}>
-        <div> count: {this.props.data.currentValue}</div>
+        <div>  {this.props.data.currentValue}</div>
 
         </div>
     );

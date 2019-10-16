@@ -1,5 +1,9 @@
 .screen {
   text-align: center;
+  /*display: flex;*/
+  /*align-self: auto;*/
+  font-family: "Savoye LET",sans-serif;
+  font-size: 100px;
 }
 
 
