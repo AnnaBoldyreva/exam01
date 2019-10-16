@@ -6,7 +6,7 @@ class Screen extends React.Component{
   render = () => {
     return (
         <div className={styles.screen}>
-         lgflgf
+        <div>0</div>
 
         </div>
     );

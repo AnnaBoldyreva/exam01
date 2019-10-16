@@ -6,7 +6,8 @@ class Reset extends React.Component{
   render = () => {
     return (
         <div className={styles.reset}>
-jkjk
+            <button>Reset</button>
+
         </div>
     );
   }

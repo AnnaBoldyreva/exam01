@@ -5,7 +5,8 @@ class Increment extends React.Component{
   render = () => {
     return (
         <div className={styles.increment}>
-gfgf
+            <button>Inc</button>
+
         </div>
     );
   }
